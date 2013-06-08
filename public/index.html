@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <script src="ext/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="marrow.js"></script>
+    <script src="ext/map.js"></script>
+  </head>
+
+  <body class="right">
+    <div id="branding"></div>
+    <div id="content">
+      <div class="limiter">
+
+        <div id="about">
+          <h1 class='map-title'>Riverside Crime Map</h1>
+          <p class='description'>Click dot to view crime info</p>
+        </div>
+
+        <!-- geocoder -->
+        <div class="clearfix crime-info">
+        </div>
+
+      </div>
+    </div>
+    <div id="map" class="map"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
